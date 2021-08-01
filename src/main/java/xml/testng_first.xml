@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "fb login">
+	
+	<test name = "fb login test">
+	
+	<parameter name = "url" value = "https://www.amazon.in/"/>
+	<parameter name = "email_id" value = "tushar.singh.mm@gmail.com"/>
+	<parameter name = "password" value = "ApneRolleAmazontma@1"/>
+	
+	<classes>
+	
+		<class name = "parameter_test.Parameter_Test"/>
+	
+	</classes>
+	
+	</test>
+	
+</suite>
